@@ -2,6 +2,7 @@ package SlidingWindoAndTwoPointer;
 
 public class countNiceSubArrays {
     //Similar to the binarySubarray sum just convert the odd and even to 0's and 1's
+    //This is the matter of the time which we all will tell
     public static void main(String[] args) {
         int[] arr = { 2,2,2,1,2,2,1,2,2,2};
         int k = 2;
