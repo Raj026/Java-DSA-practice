@@ -12,6 +12,7 @@ public class longestSubstringWithKMostDistinctCharacters {
         int max_len = 0;
         HashMap<Character, Integer> res = new HashMap<>();
         while(r<st.length()){
+
             res.put(st.charAt(r), r);
             while(res.size()>k){
                 l = res.get(st.charAt(l));
