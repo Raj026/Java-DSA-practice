@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class BinaryTreeCreationGFG {
+
     public static void main(String[] args) {
         List<Integer> res = Arrays.asList(2,3,4,5,6);
         Node r = new Node(1);
