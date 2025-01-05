@@ -10,7 +10,7 @@ public class probVowels {
         int i = 0, j = k-1;
 
         while(i<j){
-            while(i<j && !isVowel(s.charAt(i))){
+            while(i<j  && !isVowel(s.charAt(i))){
                 i++;
             }
             while(i<j && !isVowel(s.charAt(j))){
