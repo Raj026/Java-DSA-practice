@@ -29,6 +29,7 @@ public class probVowels {
 
     public static String swap(String m , int a, int b){
         char[] l = m.toCharArray();
+
         char temp = l[a];
         l[a] = l[b];
         l[b] = temp;
