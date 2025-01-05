@@ -16,6 +16,7 @@ public class probVowels {
             }
             while(i<j && !isVowel(s.charAt(j))){
                 j--;
+
             }
 
             if(i<j){
